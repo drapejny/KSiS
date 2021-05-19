@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="653.0" prefWidth="841.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.MainController">
+   <children>
+      <Line endX="424.39996337890625" layoutX="258.0" layoutY="367.0" startX="-100.0" />
+      <Line endX="424.39996337890625" layoutX="258.0" layoutY="519.0" startX="-100.0" />
+      <TextField fx:id="textField" layoutX="157.0" layoutY="71.0" prefHeight="26.0" prefWidth="525.0" />
+      <Circle fill="RED" layoutX="158.0" layoutY="519.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#2200ff" layoutX="158.0" layoutY="367.0" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+      <Text layoutX="700.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Режим:" />
+      <Text layoutX="700.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Комната:" />
+      <Text fx:id="modeText" layoutX="759.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="roomText" layoutX="759.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="timerText" disable="true" layoutX="409.0" layoutY="27.0" stroke="#822c2c" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="yourNameText" layoutX="150.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вы" />
+      <Text fx:id="opponentNameText" layoutX="147.0" layoutY="509.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <ImageView fx:id="yourImageView" fitHeight="50.0" fitWidth="50.0" layoutX="132.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="opponentImageView" fitHeight="50.0" fitWidth="50.0" layoutX="133.0" layoutY="446.0" pickOnBounds="true" preserveRatio="true" />
+      <Text fx:id="text0" layoutX="166.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" />
+      <Text fx:id="text1" layoutX="166.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" />
+      <Text fx:id="text2" layoutX="166.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" />
+   </children>
+</AnchorPane>
